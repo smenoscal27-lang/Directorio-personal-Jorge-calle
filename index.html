@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Profesional de Jorge Calle - Estudiante de Bachillerato Técnico en Informática y creador de Callmatica.">
+    <title>Jorge Calle | Portafolio Profesional IT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-laptop-code logo-icon"></i>
+                <span class="logo-text">Call<span class="highlight">matica</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Perfil</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#vision" class="nav-link">Visión</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <h2 class="greeting">Hola, soy</h2>
+            <h1 class="name">Jorge Calle</h1>
+            <p class="slogan">"<span id="typing-text"></span><span class="cursor">|</span>"</p>
+            <p class="elevator-pitch">Soy estudiante de informática en la Unidad Educativa Montepiedra. Me apasiona resolver problemas mediante la programación y la tecnología.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">Ver mis proyectos</a>
+                <a href="#contact" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="hero-image-placeholder">
+                <div class="hero-logo-jc">JC</div>
+            </div>
+            <div class="glow-effect"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Perfil Académico</h2>
+            <div class="about-grid">
+                <div class="card education-card">
+                    <i class="fa-solid fa-graduation-cap card-icon"></i>
+                    <h3>Bachiller Técnico en Informática</h3>
+                    <p class="institution">Unidad Educativa Montepiedra</p>
+                </div>
+                <div class="card experience-card">
+                    <i class="fa-solid fa-briefcase card-icon"></i>
+                    <h3>Experiencia Práctica (FCT)</h3>
+                    <p class="institution">Pasantías en ALL PLASTIC</p>
+                    <ul class="task-list">
+                        <li><i class="fa-solid fa-check text-highlight"></i> Despacho y facturación</li>
+                        <li><i class="fa-solid fa-check text-highlight"></i> Gestión de bodega</li>
+                        <li><i class="fa-solid fa-check text-highlight"></i> Ventas y atención</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Arsénal Técnico</h2>
+            <div class="skills-grid">
+                <!-- Web & Programming -->
+                <div class="skill-category">
+                    <h3 class="skill-title"><i class="fa-solid fa-code"></i> Desarrollo Web & Programación</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Frontend (HTML5, CSS3, JS)</span>
+                            <span>Avanzado</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Hardware & Support -->
+                <div class="skill-category">
+                    <h3 class="skill-title"><i class="fa-solid fa-computer"></i> Soporte Técnico y Hardware</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Hardware (Ensamble, Mantenimiento)</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Software (Instalación SO, Diagnóstico)</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Networks -->
+                <div class="skill-category">
+                    <h3 class="skill-title"><i class="fa-solid fa-network-wired"></i> Redes y Comunicaciones</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Configuración e Infraestructura</span>
+                            <span>Básico</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 40%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Office & Tools -->
+                <div class="skill-category">
+                    <h3 class="skill-title"><i class="fa-solid fa-pen-nib"></i> Ofimática y Gestión</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Microsoft Office y Diseño (Figma, Canva)</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Mi Portafolio</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <span class="project-tag">Web Programación</span>
+                        <h3 class="project-title">Eco-tips</h3>
+                        <p class="project-desc">Plataforma que ofrece diferentes tipos de tips para fomentar el reciclaje de forma interactiva.</p>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span>
+                            <span>Copilot</span>
+                        </div>
+                        <a href="https://github.com/JorgeC-BLIP/eco-tips-expressa" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-github"></i> Ver Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <span class="project-tag">Web Programación</span>
+                        <h3 class="project-title">Juego de Mesa</h3>
+                        <p class="project-desc">Juego de agilidad mental diseñado para poner a prueba las habilidades cognitivas del usuario.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Copilot</span>
+                        </div>
+                        <a href="https://github.com/JorgeC-BLIP/mi-juego-luna-de-pluton" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-github"></i> Ver Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <span class="project-tag">Web Programación</span>
+                        <h3 class="project-title">Calculadora de Propinas</h3>
+                        <p class="project-desc">Herramienta web que facilita el cálculo de propinas de manera rápida y eficiente.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Copilot</span>
+                        </div>
+                        <a href="https://github.com/JorgeC-BLIP/calculadora-de-propinas-examen" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-github"></i> Ver Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Visión de Emprendimiento</h2>
+            <div class="vision-container">
+                <div class="vision-brand">
+                    <h3><i class="fa-solid fa-rocket highlight"></i> Callmatica</h3>
+                    <p class="subtitle">Soluciones en Tecnología</p>
+                </div>
+                <div class="vision-details">
+                    <div class="vision-box">
+                        <h4>El Diferenciador</h4>
+                        <p>Precios estudiantiles, escucha activa y soluciones rápidas. Tecnología accesible con un trato humano.</p>
+                    </div>
+                    <div class="vision-box">
+                        <h4>Misión Personal</h4>
+                        <p>Convertirme en Ingeniero en Sistemas para seguir creando e innovando en el mundo digital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-text">¿Interesado en mis servicios o quieres colaborar en algún proyecto? ¡No dudes en escribirme!</p>
+                    <div class="contact-links">
+                        <a href="mailto:jorgealle343@gmail.com" class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>jorgealle343@gmail.com</span>
+                        </a>
+                        <a href="https://wa.me/593990709623" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>+593 990709623</span>
+                        </a>
+                        <a href="https://github.com/JorgeC-BLIP" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>github.com/JorgeC-BLIP</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Jorge Calle - Callmatica. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
